@@ -1,10 +1,10 @@
 export const COUNTRIES = {
   CZECHIA: {
-    name: "Czech republic",
+    name: "Czech Republic",
     flag: "cz",
   },
   SLOVAKIA: {
-    name: "Slovak republic",
+    name: "Slovak Republic",
     flag: "sk",
   },
   GERMANY: {
