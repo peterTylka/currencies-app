@@ -19,11 +19,14 @@ export function App() {
   return (
     <section className="section pt-0">
       <div className="container is-max-desktop">
-        <header>
+        <header style={{ display: "initial" }}>
           <h1 className="has-background-black has-text-light pl-3 is-size-2">
             Currencies
           </h1>
-          <div className="has-background-grey has-text-light pl-3 py-1">
+          <div
+            className="has-background-grey has-text-light pl-3 py-1"
+            style={{ position: "sticky", top: 0, zIndex: 32000 }}
+          >
             <label htmlFor="currency" className="is-size-5">
               Search
             </label>
