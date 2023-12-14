@@ -19,6 +19,90 @@ export const CURRENCY_LIST: CurrencyList = {
       },
       countries: [COUNTRIES.CZECHIA],
     },
+    {
+      currency: "HUF",
+      exchangeRate: {
+        middle: 321.45,
+      },
+      countries: [COUNTRIES.HUNGARY],
+    },
+    {
+      currency: "PLN",
+      exchangeRate: {
+        middle: 4.287,
+      },
+      countries: [COUNTRIES.POLAND],
+    },
+    {
+      currency: "CHF",
+      exchangeRate: {
+        middle: 1.1422,
+      },
+      countries: [COUNTRIES.SWITZERLAND],
+    },
+    {
+      currency: "USD",
+      exchangeRate: {
+        middle: 1.1349,
+      },
+      countries: [COUNTRIES.UNITED_STATES],
+    },
+    {
+      currency: "CNY",
+      exchangeRate: {
+        middle: 7.8819,
+      },
+      countries: [COUNTRIES.CHINA],
+    },
+    {
+      currency: "JPY",
+      exchangeRate: {
+        middle: 129.2,
+      },
+      countries: [COUNTRIES.JAPAN],
+    },
+    {
+      currency: "MXN",
+      exchangeRate: {
+        middle: 22.98,
+      },
+      countries: [COUNTRIES.MEXICO],
+    },
+    {
+      currency: "IRR",
+      exchangeRate: {
+        middle: 47649.0,
+      },
+      countries: [COUNTRIES.IRAN],
+    },
+    {
+      currency: "ISK",
+      exchangeRate: {
+        middle: 135.0,
+      },
+      countries: [COUNTRIES.ICELAND],
+    },
+    {
+      currency: "JMD",
+      exchangeRate: {
+        middle: 43.1087092,
+      },
+      countries: [COUNTRIES.JAMAICA],
+    },
+    {
+      currency: "COP",
+      exchangeRate: {
+        middle: 3577.0218,
+      },
+      countries: [COUNTRIES.COLOMBIA],
+    },
+    {
+      currency: "NOK",
+      exchangeRate: {
+        middle: 9.555,
+      },
+      countries: [COUNTRIES.NORWAY],
+    },
   ],
 };
 

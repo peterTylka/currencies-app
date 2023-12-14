@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import { CurrencyCard } from "./components";
 import { CURRENCY_LIST } from "./constants";
+import { useSearch } from "./hooks";
 
 export function App() {
   const [currencies, setCurrencies] = useState(CURRENCY_LIST);
-  const [searchValue, setSearchValue] = useState("");
+  const { searchValue, setSearchValue } = useSearch();
 
   useEffect(() => {
     setCurrencies({
@@ -18,7 +19,6 @@ export function App() {
   return (
     <section className="section pt-0">
       <div className="container is-max-desktop">
-        {/* HEADER */}
         <header>
           <h1 className="has-background-black has-text-light pl-3 is-size-2">
             Currencies
